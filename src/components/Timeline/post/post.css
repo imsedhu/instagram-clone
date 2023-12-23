@@ -1,0 +1,128 @@
+.post-user-img {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.post {
+  width:550px;
+  margin: 30px 40px 50px 40px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  position: relative;
+  
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.post-user > span {
+  color: gray;
+  font-size: 15px;
+}
+
+.post-img > img {
+  width: 100%;
+  border-radius: 6px;
+  border: 0.6px solid rgba(128, 128, 128, 0.516);
+  cursor: pointer;
+}
+
+.post-footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-main-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.main-icon {
+  margin-right: 10px;
+}
+
+.moreicon,
+.saveicon {
+  cursor: pointer;
+}
+
+.comment-container {
+  display: flex;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.comment-container input {
+  background: 0;
+  border: 0;
+  color: white;
+  width: 80%;
+  outline: 0;
+}
+
+.comment-container input::placeholder {
+  color: gray;
+  font-size: 15px;
+}
+
+.emoji-mart {
+  position: absolute;
+  right: -400px;
+  bottom: 0;
+  z-index: 40;
+}
+
+.post-btn {
+  background: none;
+  color: rgb(0, 72, 255);
+  font-size: 16px;
+  border: none;
+}
+
+.comment-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.like-count {
+  display: flex;
+  flex-direction: column;
+  
+}
+.like-heart-icon {
+  font-size: 10px;
+  cursor: pointer;
+}
+.like-count span {
+  font-size: 8px;
+  text-align: center;
+}
+
+.emoji-icon {
+  cursor: pointer;
+
+}
